@@ -2,7 +2,7 @@
 
 > Lightning-fast authentication microservice built with Go - **2ms response times, 415 req/sec**
 
-[![Go Version](https://img.shields.io/badge/Go-1.21+-blue.svg)](https://golang.org)
+[![Go Version](https://img.shields.io/badge/Go-1.24+-blue.svg)](https://golang.org)
 [![Performance](https://img.shields.io/badge/Performance-⚡%20Sub--10ms-brightgreen.svg)](PERFORMANCE.md)
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](Dockerfile)
 
