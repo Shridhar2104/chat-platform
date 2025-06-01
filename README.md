@@ -71,7 +71,6 @@ Security Features:
 bcrypt password hashing
 JWT token authentication
 Rate limiting (60 req/min)
-CORS protection
 Input validation
 
 ⚡ Performance
@@ -83,20 +82,6 @@ User registration: 6ms avg, 166 req/sec
 User login: 3ms avg, 300 req/sec
 Concurrent users: 25+ supported
 
-🐳 Deployment
-Development:
-bashmake dev-up
-Production:
-bashkubectl apply -f k8s/
-Environment Variables:
-bashPORT=8080
-DATABASE_URL=postgres://user:pass@localhost:5432/db
-REDIS_URL=redis://localhost:6379
-JWT_SECRET=your-secret-key
-RATE_LIMIT_RPM=60
-🧪 Testing
-bash# Run tests
-make test
 
 # Load testing
 ./tests/benchmark.sh
