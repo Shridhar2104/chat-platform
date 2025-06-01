@@ -11,7 +11,6 @@
 - ⚡ **Sub-10ms response times** - Faster than most database queries
 - 🔥 **415 requests/sec** - Handles serious traffic
 - 🛡️ **Enterprise security** - JWT + bcrypt + rate limiting
-- 🐳 **Production ready** - Docker + Kubernetes deployment
 - 📊 **Zero failures** - 100% success rate under load
 
 ## 🚀 Quick Start
